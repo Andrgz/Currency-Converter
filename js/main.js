@@ -9,7 +9,7 @@ const curswap = document.getElementById("swap-currency");
 function currencycalc() {
     const currency1 = cur1.value;
     const currency2 = cur2.value;
-    fetch(`https://v6.exchangerate-api.com/v6/3f4f1b4eba6eaab21a2f74a2/latest/${currency1}`)
+    fetch(``)
     .then((res) => res.json())
         .then((data) => {
             const rate = data.conversion_rates[currency2];
